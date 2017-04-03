@@ -1,4 +1,4 @@
-FROM fedora:26
+FROM registry.fedoraproject.org/fedora:26
 MAINTAINER Christian Heimes <cheimes@redhat.com>
 
 # updates

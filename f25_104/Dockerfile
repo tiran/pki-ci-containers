@@ -1,4 +1,4 @@
-FROM fedora:25
+FROM registry.fedoraproject.org/fedora:25
 MAINTAINER Christian Heimes <cheimes@redhat.com>
 
 # updates
