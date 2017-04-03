@@ -1,5 +1,9 @@
 FROM registry.fedoraproject.org/fedora:26
 MAINTAINER Christian Heimes <cheimes@redhat.com>
+LABEL \
+    name="tiran/pki-ci-containers:f26_104" \
+    vendor="Dogtag PKI" \
+    url="http://dogtagpki.org/"
 
 # updates
 RUN dnf -y update && dnf clean all
